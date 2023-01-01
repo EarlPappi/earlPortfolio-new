@@ -4,12 +4,12 @@ body {
 }
 
 a {
-  color: #6a4c93;
+  color: #4361ee;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8053be;
+  color: #3a0ca3;
   text-decoration: none;
 }
 
@@ -24,42 +24,54 @@ h6 {
 
 button {
   border: none;
-  width: 10em;
+  width: max-content;
   height: 3em;
   font-size: 0.9em;
   font-weight: 500;
   border-radius: 10px;
+  padding: 0 2em;
 }
+
 .button1 {
-  background-color: #6a4c93;
+  background-color: #4361ee;
   color: rgba(255, 255, 255, 0.8);
   margin-right: 2em;
 }
+
 .button1 a {
   color: rgba(255, 255, 255, 0.8);
 }
+
 .button1:active,
 .button1:hover {
-  background-color: #8053be;
+  background-color: #3a0ca3;
 }
+
 .button2 {
-  border: 1px solid #45505b;
-  color: #8053be;
+  border: 1px solid #6b7b8b;
+  color: #fff !important;
   background-color: transparent;
+  width: max-content;
 }
-.button2:active,
-.button2:hover {
-  background-color: #8053be;
-  color: white;
+
+.my-resume {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.button2:hover,
+.my-resume:hover,
+.my-resume:active {
+  color: #4361ee;
 }
 
 @media (max-width: 994px) {
   button {
-    width: 9em;
-    height: 3em;
+    width: max-content;
+    height: 4em;
     font-size: 0.7em;
   }
 }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -70,7 +82,7 @@ button {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #6a4c93;
+  background: #4361ee;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -84,7 +96,7 @@ button {
 }
 
 .back-to-top:hover {
-  background: #8053be;
+  background: #3a0ca3;
   color: #fff;
 }
 
@@ -112,7 +124,7 @@ button {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #6a4c93;
+  border: 6px solid #4361ee;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -197,7 +209,7 @@ button {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
 }
@@ -231,6 +243,7 @@ button {
 }
 
 @media (min-width: 992px) {
+
   .nav-menu a,
   .nav-menu a:focus {
     width: 56px;
@@ -246,26 +259,26 @@ button {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover > a {
+.nav-menu li:hover>a {
   color: #fff;
-  background: #6a4c93;
+  background: #4361ee;
 }
 
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
-.nav-menu li:hover > a span {
+.nav-menu li:hover>a span {
   color: #fff;
 }
 
 .nav-menu a:hover,
-.nav-menu li:hover > a {
+.nav-menu li:hover>a {
   width: 100%;
   color: #fff;
 }
 
 .nav-menu a:hover span,
-.nav-menu li:hover > a span {
+.nav-menu li:hover>a span {
   display: block;
 }
 
@@ -302,7 +315,7 @@ button {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #6a4c93;
+  background-color: #4361ee;
 }
 
 /*--------------------------------------------------------------
@@ -311,7 +324,7 @@ button {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg.jpg");
+  background: url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -348,7 +361,7 @@ button {
 }
 
 #hero p span {
-  color: #6a4c93;
+  color: #4361ee;
   letter-spacing: 1px;
 }
 
@@ -366,11 +379,13 @@ button {
 }
 
 #hero .social-links a:hover {
-  color: #6a4c93;
+  color: #4361ee;
 }
+
 .call-to-action {
   margin-top: 2em;
 }
+
 @media (max-width: 992px) {
   #hero {
     text-align: center;
@@ -428,7 +443,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #6a4c93;
+  background: #4361ee;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -465,7 +480,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #6a4c93;
+  color: #4361ee;
   line-height: 0;
 }
 
@@ -478,6 +493,7 @@ section {
     text-align: left;
   }
 }
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -496,7 +512,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #6a4c93;
+  background: #4361ee;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -553,7 +569,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #6a4c93;
+  background-color: #4361ee;
 }
 
 /*--------------------------------------------------------------
@@ -570,7 +586,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #6a4c93;
+  border-left: 2px solid #4361ee;
   position: relative;
 }
 
@@ -580,7 +596,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #6a4c93;
+  color: #4361ee;
   margin-bottom: 10px;
 }
 
@@ -614,7 +630,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #6a4c93;
+  border: 2px solid #4361ee;
 }
 
 /*--------------------------------------------------------------
@@ -629,6 +645,7 @@ section {
   height: 400px;
   margin: 2em;
 }
+
 .portfolio-wrap img {
   width: 100%;
   height: 100%;
@@ -648,10 +665,12 @@ section {
   border-radius: 10px;
   opacity: 0;
 }
+
 .portfolio-info:hover,
 .portfolio-info:active {
   opacity: 1;
 }
+
 .portfolio-info i {
   font-size: 2em;
 }
@@ -662,12 +681,15 @@ section {
     height: 800px;
     margin: 1em 0;
   }
+
   .portfolio-wrap img {
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
-} /*-------------------------------------------------------------- # Services --------------------------------------------------------------*/
+}
+
+/*-------------------------------------------------------------- # Services --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -868,11 +890,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #6a4c93;
+  border: 1px solid #4361ee;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #6a4c93;
+  background-color: #4361ee;
 }
 
 @media (min-width: 992px) {
@@ -891,7 +913,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #6a4c93;
+  color: #4361ee;
   float: left;
   width: 44px;
   height: 44px;
@@ -926,7 +948,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #6a4c93;
+  background: #4361ee;
   color: #fff;
 }
 
@@ -948,7 +970,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -997,7 +1019,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #6a4c93;
+  background: #4361ee;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1006,7 +1028,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #8053be;
+  background: #3a0ca3;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1063,7 +1085,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #6a4c93;
+  background: #4361ee;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1076,7 +1098,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #8053be;
+  background: #3a0ca3;
   color: #fff;
   text-decoration: none;
 }
@@ -1087,4 +1109,48 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.my-skills {
+  overflow: hidden;
+  border: 1px solid white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.skills-scroller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800%;
+  flex-wrap: wrap;
+  gap: 2em;
+  animation: scroll 20s linear infinite;
+}
+
+@media (min-width: 767px) {
+  .skills-scroller {
+    width: 200%;
+  }
+}
+
+.skills-scroller img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.my-selector {
+  font-weight: bold;
+  background-color: aliceblue;
 }
